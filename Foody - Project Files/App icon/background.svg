@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-background">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="background" clip-path="url(#clip-background)">
+    <rect width="512" height="512" fill="#f9f9f9"/>
+    <rect id="Rectangle_1506" data-name="Rectangle 1506" width="512" height="512" fill="#f9f9f9"/>
+  </g>
+</svg>

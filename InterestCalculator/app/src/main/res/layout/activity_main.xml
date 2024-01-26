@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.interestcalculator.LoanViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Interest Calculator"
+            android:textAlignment="center"
+            android:textColor="@color/purple_700"
+            android:textSize="34sp"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/editTextAmount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/textTitle"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@android:drawable/divider_horizontal_textfield"
+            android:hint="Money to Borrow"
+            android:inputType="numberDecimal"
+            android:text="@={viewModel.amount}" />
+
+        <EditText
+            android:id="@+id/editTextInterestRate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/editTextAmount"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@android:drawable/divider_horizontal_textfield"
+            android:hint="Annual Interest Rate"
+            android:inputType="numberDecimal"
+            android:text="@={viewModel.interestRate}" />
+
+        <EditText
+            android:id="@+id/editTextYears"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/editTextInterestRate"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@android:drawable/divider_horizontal_textfield"
+            android:hint="Number of Years"
+            android:inputType="number"
+            android:textColorHighlight="@color/purple_500"
+            android:text="@={viewModel.years}" />
+
+        <TextView
+            android:id="@+id/textTitleSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextYears"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="16dp"
+            android:text="Summary"
+            android:textColor="@color/purple_700"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textViewSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textTitleSummary"
+            android:layout_marginTop="16dp"
+            android:text="@{viewModel.summary}" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+    </RelativeLayout>
+</layout>
