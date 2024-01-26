@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_25_10_2023_11_56_a_m__[Changes]" date="1698260195698" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_10_2023_11_56_a_m__[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 25/10/2023 11:56 a.m. [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="gradlew" />
+    <option name="AFTER_PATH" value="gradlew" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_10_2023_11_56_a_m__[Changes]/gradlew" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="gradle/wrapper/gradle-wrapper.jar" />
+    <option name="AFTER_PATH" value="gradle/wrapper/gradle-wrapper.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_10_2023_11_56_a_m__[Changes]/gradle-wrapper.jar" />
+  </binary>
+</changelist>

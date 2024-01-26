@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/gameFragment">
+
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.targetpractice.GameFragment"
+        android:label="Target Practice"
+        tools:layout="@layout/fragment_game" />
+    <fragment
+        android:id="@+id/scoresFragment"
+        android:name="com.example.targetpractice.ScoresFragment"
+        android:label="High Scores"
+        tools:layout="@layout/fragment_scores" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.targetpractice.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TargetPractice</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="game_fragment">Game</string>
+    <string name="scores_fragment">High Scores</string>
+    <string name="settings_fragment">Settings</string>
+</resources>
